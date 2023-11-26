@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSSF CARD</title>
+</head>
+<body>
+   <h1><label for="nssfnumber">Nssf Number: 2033113423</h1>
+   <h1>NSSF</h1>
+   <p>Growing You. For Good</p>
+   <br>
+   <P>www.nssf.or.ke</P>
+    <h2>Membership Card</h2>
+   <p>(KADI YA UANACHAMA)</p>
+   <form>
+        <div>
+             <!---input name type--->
+            <label for="full_name">Full Name:</label>
+           <input name="full_name" id="full_name" type="text" placeholder="e.g susan tata"required>
+        </div>
+          <br>
+
+        <div>
+            <!---id--->
+            <label for=" identification Card No">Id No:</label>
+           <input  name="id no" type="id no" placeholder="e.g 12345678"required >
+        </div>
+           <br>
+
+        <div>
+           <!---input date of birth type--->
+            <label for="date Of Birth">D.O.B: </label>
+          <input type="d.o.b" name="d.o.b" id="d.o.b" placeholder="e.g 10/25/2016" required>
+        </div>
+          <br>
+
+        <div>
+            <!---input place type--->
+            <label type="district">District:</label>
+         <input type="district" name="district" placeholder="eg wamono" required>
+         
+        </div>
+        <br>
+
+       
+        <div>
+            <!--NSSF OFFICE-->
+            <label type="nssf office">Nssf Office:</label>
+            <input type="nssf office" name="nssf office" placeholder="eg huduma centre" required>
+        </div>
+         <br>
+
+         <div>
+            <!--date of issue-->
+            <label for="date of issue">Date Of Issue:</label>
+            <input type="date of issue" name="date of issue" placeholder="eg 02/05/2023" required>
+         </div>
+         <br>
+
+         <div>
+            <!--employer's no-->
+            <label for="employer's number">Employer Number:</label>
+            <input type="employer's number" name="employer's number" placeholder="eg 00214007"required >
+         </div>
+         <br>
+
+         <div>
+            <!--member signature-->
+            <label for="member sign">Member Sign:</label>
+            <input type="member sign" name="member sign" id="sign"required >
+         </div>
+         <br>
+         
+         
+            <footer>
+               <label for="sf/r&c/reg/df/003a">SF/R&C/REG/DF/003A</label>
+            </footer>
+         
+
+    </form> 
+</body>
+</html>
